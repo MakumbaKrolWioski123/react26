@@ -1,0 +1,4 @@
+Jeśli nie przekażemy nagłówka Content-Type: application/json, 
+serwer może nie rozpoznać, że wysyłane dane są w formacie JSON i niepoprawnie je odczytać.
+Pole res.ok ma wartość false przy błędzie 404, 
+ponieważ jest ustawiane na true tylko dla odpowiedzi HTTP ze statusem z zakresu 200–299.
